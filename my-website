@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yllka Thaqi - My Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4CAF50, #1E88E5);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+        .books, .interests {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card p {
+            padding: 1rem;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yllka Thaqi</h1>
+        <p>Welcome to my world!</p>
+    </header>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#books">Books</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hi! My name is <strong>Yllka Thaqi</strong>. I'm 16 years old and currently studying at <strong>Gjimnazi Gjon Buzuku</strong>. I have a passion for technology, programming, and cinematography. I love exploring creativity, especially in <strong>horror movies</strong> like <em>The Shining</em>. I dream of living in <strong>New York City</strong>, USA, one day! </p>
+    </section>
+    <section id="books">
+        <h2>Books I've Read</h2>
+        <div class="books">
+            <div class="card">
+                
+                <p><strong>Crime and Punishment</strong></p>
+            </div>
+            <div class="card">
+                
+                <p><strong>The Idiot</strong></p>
+            </div>
+            <div class="card">
+                
+                <p><strong>Metamorphosis</strong></p>
+            </div>
+            <div class="card">
+                
+                <p><strong>The 48 Laws of Power</strong></p>
+            </div>
+            <div class="card">
+                
+                <p><strong>Of Mice and Men</strong></p>
+            </div>
+            <div class="card">
+                
+                <p><strong>To Kill a Mockingbird</strong></p>
+            </div>
+            <div class="card">
+                
+                <p><strong>1984</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="interests">
+        <h2>My Interests</h2>
+        <div class="interests">
+            <div class="card">
+                
+                <p><strong>Programming & IT</strong> - My passion for coding drives me to explore the latest technology trends.</p>
+            </div>
+            <div class="card">
+                
+                <p><strong>Cinematography</strong> - I love movies and how stories come to life visually.</p>
+            </div>
+            <div class="card">
+                
+                <p><strong>Horror Movies</strong> - Watching films like <em>The Shining</em> inspires me.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, email me at: <a href="mailto:yll.ka.tha@gmail.com">yll.ka.tha@gmail.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Yllka Thaqi. Built with ❤️. Reach out via <a href="mailto:yll.ka.tha@gmail.com">email</a>.</p>
+    </footer>
+</body>
+</html>
+
+
+
